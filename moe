@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kawaii Cafe</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f7f5f1;
+  font-family: Arial, sans-serif;
+  color: #444;
+}
+
+.app {
+  max-width: 760px;
+  margin: auto;
+  min-height: 100vh;
+  background: #fffafd;
+}
+
+/* HEADER */
+
+header {
+  height: 75px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-bottom: 1px solid #f3dce9;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ed69b0;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #f5d7e8;
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+  font-size: 23px;
+}
+
+.cart {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background: white;
+  border: 2px solid #f5d7e8;
+  border-radius: 15px;
+  font-size: 21px;
+}
+
+.cart-number {
+  position: absolute;
+  right: -6px;
+  top: -6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #f25baa;
+  color: white;
+  font-size: 12px;
+  display: none;
+  place-items: center;
+}
+
+/* MAIN */
+
+main {
+  padding: 25px 20px 110px;
+}
+
+/* HERO */
+
+.hero {
+  text-align: center;
+  padding: 40px 15px;
+  border-radius: 30px;
+  background: linear-gradient(120deg,#ffd6ec,#fff0d7);
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 40px;
+  color: #293141;
+}
+
+.hero p {
+  color: #777;
+  font-weight: bold;
+}
+
+/* SEARCH */
+
+.search {
+  margin-top: 18px;
+  background: white;
+  border: 2px solid #f5dce9;
+  border-radius: 17px;
+  padding: 13px;
+  display: flex;
+  gap: 10px;
+}
+
+.search input {
+  width: 100%;
+  border: 0;
